@@ -1,0 +1,5 @@
+gdown
+opencv-python
+imutils
+numpy
+matplotlib

@@ -7,7 +7,7 @@ import imutils
 
 
 # Fungsi u/ melakukan processing social distancing detector
-def calculate_social_distancing(vid_path, net, ln1, points, confid, thresh):
+def calculate_social_distancing(vid_path, net, ln1, points, confid, thresh, output):
     
     # initialize count dan video capture
     count = 0
@@ -23,7 +23,7 @@ def calculate_social_distancing(vid_path, net, ln1, points, confid, thresh):
     
     # initialize penyimpanan video output hasil processing
     fourcc = cv2.VideoWriter_fourcc(*"MJPG")
-    output_movie = cv2.VideoWriter("Social Distancing Detection.avi", fourcc, fps, (1540, 720), True)
+    output_movie = cv2.VideoWriter(output, fourcc, fps, (1540, 720), True)
     
     # variable berisi nilai red / map pelanggaran
     RED_IMAGE = []
