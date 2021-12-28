@@ -3,6 +3,9 @@ Bird-eye view social distancing detector with YOLOv3
 
 <a href="https://www.kaggle.com/didiruh/proyek-kb-social-distancing"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
 
+## Demo
+![Social Distancing Demo](https://github.com/ruhyadi/Social-Distancing/blob/main/demo/soial-distancing-1.gif)
+
 ## 1. Install Requirements
 Install depedencies in requirements.
 ```
